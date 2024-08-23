@@ -1,7 +1,6 @@
 import { Product } from "./product.js";
 
 export class Grocery {
-
   #name;
   #products = [];
 
@@ -14,7 +13,7 @@ export class Grocery {
   }
 
   setName(name) {
-    if (typeof (name) !== 'string') {
+    if (typeof name !== "string") {
       throw new Error();
     }
     name = name.trim();
@@ -39,6 +38,4 @@ export class Grocery {
   totalAvailableProducts() {
     // TODO
   }
-  
-};
-
+}

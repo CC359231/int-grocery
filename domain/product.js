@@ -1,10 +1,9 @@
 export const Categories = {
   Fruits: "Frutas",
-  Vegetables: "Verduras"
-}
+  Vegetables: "Verduras",
+};
 
 export class Product {
-
   #name;
   #price;
   #category;
@@ -32,7 +31,7 @@ export class Product {
   }
 
   setName(name) {
-    if (typeof (name) !== 'string') {
+    if (typeof name !== "string") {
       throw new Error();
     }
     name = name.trim();
@@ -43,7 +42,7 @@ export class Product {
   }
 
   setPrice(price) {
-    if (typeof (price) !== 'number' || isNaN(price)) {
+    if (typeof price !== "number" || isNaN(price)) {
       throw new Error();
     }
     if (price < 1) {
@@ -56,5 +55,4 @@ export class Product {
   setCategory(category) {
     this.#category = category;
   }
-  
 }
