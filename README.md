@@ -1,4 +1,4 @@
-# Evaluacion integradora Grocery
+# Ejercicio Grocery
 
 ## Objetivos
 
