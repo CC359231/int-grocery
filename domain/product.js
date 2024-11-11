@@ -36,17 +36,17 @@ export class Product {
     }
     name = name.trim();
     if (name.length === 0) {
-      throw new Error();
+      throw new Error("El producto debe tener nombre");
     }
     this.#name = name;
   }
 
   setPrice(price) {
     if (typeof price !== "number" || isNaN(price)) {
-      throw new Error();
+      throw new Error("El precio del producto debe ser mayor a cero");
     }
     if (price < 1) {
-      throw new Error();
+      throw new Error("El precio del producto debe ser mayor a cero");
     }
     price = Math.trunc(price);
     this.#price = price;
