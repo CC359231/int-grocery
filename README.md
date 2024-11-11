@@ -4,7 +4,7 @@
 
 - Implementar nuevas funciones de lógica de dominio
 - Codificar test unitarios en paralelo a la implementación
-- Usar un linter para detectar problemas de codificacion
+- Usar buenas prácticas de codificacion
 - Modificar la interfaz de usuario para usar las nuevas funciones
 
 ### Aspectos a tener en cuenta
@@ -33,14 +33,11 @@
 
 ### Parte B
 
-4. Ejecute el linter con `npm run lint` para eliminar errores y warnings.
-5. Subir un issue 'Parte B' con un screenshot de la terminal del linter sin detectar problemas de código.
-
-### Parte C
-
-6. Agregar elementos a la intefaz de usuario (solo HTML, no es necesario implementar la lógica) para usar las nuevas funciones.
+5. Agregar elementos a la intefaz de usuario para usar las nuevas funciones.
 
    - Checkbox 'Disponible' en el formulario 'Nuevo producto'.
    - Mostrar 'Total productos disponibles' en el panel 'Inicio'.
 
-7. Subir un issue 'Parte C' con screenshot de la página en el navegador (paneles Inicio y Nuevo producto).
+6. Usar el componente `card` de Bootstrap para mostrar los productos en los paneles 'Frutas' y 'Verduras'.
+
+7. Subir un issue 'Parte B' con screenshot de la página en el navegador (paneles Inicio y Nuevo producto).
