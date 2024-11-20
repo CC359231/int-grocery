@@ -23,21 +23,28 @@
 
 ### Parte A
 
-1. En la clase `Product` agegar el campo `disponible`. El campo es booleano y el valor por defecto es true. Implementar las funciones `getAvailable()` y `setAvailable()` validando que el parámetro recibido es booleano. Modificar la función `toString()` agregando 'ND' al final del producto en caso que no esté disponible.
-   Codificar test unitarios para las nuevas funciones, incluyendo casos de error.
+1. En la clase `Product` agegar el campo `disponible`.
+   - el campo es booleano y el valor por defecto es true
+
+Implementar las funciones `getAvailable()` y `setAvailable()` validando que el parámetro recibido es booleano. 
+
+Modificar la función `toString()` agregando 'ND' al final del producto en caso que no esté disponible.
+
+Codificar test unitarios para las nuevas funciones
+   - incluir test para casos de error
+   - la cobertura de los test unitarios debe alcanzar el 100%
 
 2. En la clase `Grocery` implementar la función `totalAvailableProducts()` que suma el total de productos disponibles del almacén.
    Codificar test unitarios para la función `totalAvailableProducts()`.
 
-3. Subir un issue 'Parte A' con un screenshot de la terminal con el resumen de los tests unitarios y cobertura.
+Subir un issue 'Parte A' con un screenshot de la terminal con el resumen de los tests unitarios y cobertura.
 
 ### Parte B
 
-5. Agregar elementos a la intefaz de usuario para usar las nuevas funciones.
+3. Agregar elementos a la intefaz de usuario para usar las nuevas funciones.
+   - checkbox 'Disponible' en el formulario 'Nuevo producto'
+   - mostrar 'Total productos disponibles' en el panel 'Inicio'
 
-   - Checkbox 'Disponible' en el formulario 'Nuevo producto'.
-   - Mostrar 'Total productos disponibles' en el panel 'Inicio'.
+4. Usar el componente `card` de Bootstrap para mostrar los productos en los paneles 'Frutas' y 'Verduras'.
 
-6. Usar el componente `card` de Bootstrap para mostrar los productos en los paneles 'Frutas' y 'Verduras'.
-
-7. Subir un issue 'Parte B' con screenshot de la página en el navegador (paneles Inicio y Nuevo producto).
+Subir un issue 'Parte B' con screenshot de la página en el navegador (paneles Inicio y Nuevo producto).
