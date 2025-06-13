@@ -26,6 +26,10 @@ export class Product {
     return this.#category;
   }
 
+  getDiscount() {
+    // TODO
+  }
+
   toString() {
     return `${this.#name} $ ${this.#price}`;
   }
@@ -54,5 +58,9 @@ export class Product {
 
   setCategory(category) {
     this.#category = category;
+  }
+
+  setDiscount() {
+    // TODO
   }
 }

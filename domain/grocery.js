@@ -35,7 +35,7 @@ export class Grocery {
     return this.#products.length;
   }
 
-  totalAvailableProducts() {
+  totalDiscountedProducts() {
     // TODO
   }
 }
