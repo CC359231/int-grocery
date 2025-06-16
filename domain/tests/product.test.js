@@ -24,7 +24,7 @@ describe("Product class", () => {
     expect(() => new Product(null)).toThrow();
   });
 
-  test("check price is a nuber", () => {
+  test("check price is a number", () => {
     expect(() => new Product("Manzana", NaN)).toThrow();
   });
 });
