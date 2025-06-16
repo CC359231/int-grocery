@@ -23,7 +23,7 @@
 
 ### Parte A
 
-1. En la clase `Product` agegar el campo `discount`.
+1. En la clase `Product` agregar el campo `discount`.
    - el campo es un número entero, mínimo 0 y máximo 100
 
 Implementar las funciones `getDiscount()` y `setDiscount()` validando que valor recibido es válido.
