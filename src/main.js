@@ -39,7 +39,7 @@ function clearInputs() {
 function updateCatalog() {
   const addedProduct =
     myGrocery.getProducts()[myGrocery.getProducts().length - 1];
-  let newListElement = document.createElement("li");
+  const newListElement = document.createElement("li");
   newListElement.classList.add("list-group-item");
   newListElement.innerText = addedProduct.toString();
 
