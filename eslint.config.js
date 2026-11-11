@@ -20,13 +20,17 @@ export default defineConfig([
         "warn",
         { max: 50, skipBlankLines: true, skipComments: true },
       ],
-      "max-params": ["error", 3],
+      "max-params": ["error", 7],
 
       // Code good practice
       "prefer-const": "error",
       "no-var": "error",
       eqeqeq: ["error", "always"],
-      "no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        { argsIgnorePattern: "^_" },
+      ],
       "no-console": "warn",
 
       // Prevent Code Smells

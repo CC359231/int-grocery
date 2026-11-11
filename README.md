@@ -1,4 +1,4 @@
-# Ejercicio Grocery
+# Ejercicio Grocery: TypeScript + Vite
 
 ## Objetivos
 
@@ -12,9 +12,17 @@
 - Los comentarios `// TODO` deben ser reemplazados por código para implementar las nuevas funciones.
 - Puede agregar nuevas funciones y tests, así como agregar parámetros en funciones existentes.
 - Si necesita realizar supuestos sobre la implementación, agregue comentarios para explicarlos.
-- Los test unitarios se deben codificar en los archivos correspondientes `*.test.js`.
+- Los test unitarios se deben codificar en los archivos correspondientes `*.test.ts`.
 - La cobertura de los test unitarios debe alcanzar 100 % de sentencias y ramas.
 - Ejecute el linter con `npm run lint` para eliminar errores y warnings.
+- Verifique que `npm run build` no muestre errores de TypeScript.
+
+### Ejecutar el ejercicio
+
+1. Hacer un fork de este repositorio y clonarlo.
+2. Instalar las dependencias con `npm install`.
+3. Levantar la aplicación con `npm run dev`.
+4. Ejecutar los tests con `npm test`.
 
 > Recuerde al finalizar cada parte:
 >
@@ -50,5 +58,19 @@ Subir un issue 'Parte A' con un screenshot de la terminal con el resumen de los 
 4. Usar el componente `card` de Bootstrap para mostrar los productos en los paneles 'Frutas' y 'Verduras'.
    - usar el nombre del producto como título en cada card
    - en el cuerpo del card mostrar: precio, descuento
+   - aplicar clases utilitarias de Bootstrap para mostrar las cards con sombra y borde
 
 Subir un issue 'Parte B' con screenshot de la página en el navegador (paneles Inicio y Nuevo producto).
+
+### Extra
+
+- Resuelve problemas de accesibilidad con WAVE
+
+### Referencias y recursos útiles
+
+- [ESLint](https://eslint.org/docs/latest/rules/)
+- [Prettier](https://prettier.io/docs/)
+- [TypeScript](https://www.typescriptlang.org/docs/)
+- [Vitest](https://vitest.dev/guide/)
+- [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
+- [HTML](https://www.w3schools.com/html/)
