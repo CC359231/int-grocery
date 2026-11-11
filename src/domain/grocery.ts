@@ -36,6 +36,7 @@ export class Grocery {
   }
 
   totalDiscountedProducts(): number {
+    // TODO: Implementar cuando Product tenga descuento
     return 0;
   }
 }
