@@ -38,7 +38,7 @@ Implementar las funciones `getDiscount()` y `setDiscount()` validando que valor 
 
 Modificar la función `toString()` mostrando el descuento si es mayor a cero.
 
-Codificar test unitarios para las nuevas funciones
+Codificar test unitarios para las nuevas funciones y las ya existentes que se encuentren sin cubrir.
 
 - incluir test para casos de error
 - la cobertura de los test unitarios debe alcanzar el 100%
@@ -46,19 +46,23 @@ Codificar test unitarios para las nuevas funciones
 2. En la clase `Grocery` implementar la función `totalDiscountedProducts()` que retorna el total de productos con descuento del almacén.
    Codificar test unitarios para la función `totalDiscountedProducts()`.
 
+3. Ejecutar el linter y verificar que no existan errores o advertencias.
+
 Subir un issue 'Parte A' con un screenshot de la terminal con el resumen de los tests unitarios y cobertura.
 
 ### Parte B
 
-3. Agregar elementos a la intefaz de usuario para usar las nuevas funciones.
+4. Agregar elementos a la intefaz de usuario para usar las nuevas funciones.
 
    - campo 'Descuento' en el formulario 'Nuevo producto'
    - mostrar 'Total productos con descuento' en el panel 'Inicio'
 
-4. Usar el componente `card` de Bootstrap para mostrar los productos en los paneles 'Frutas' y 'Verduras'.
+5. Usar el componente `card` de Bootstrap para mostrar los productos en los paneles 'Frutas' y 'Verduras'.
    - usar el nombre del producto como título en cada card
    - en el cuerpo del card mostrar: precio, descuento
    - aplicar clases utilitarias de Bootstrap para mostrar las cards con sombra y borde
+
+6. Ejecutar el linter y verificar que no existan errores o advertencias.
 
 Subir un issue 'Parte B' con screenshot de la página en el navegador (paneles Inicio y Nuevo producto).
 
