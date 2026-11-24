@@ -10,6 +10,7 @@ export class Product {
   #name!: string;
   #price!: number;
   #category!: Category;
+  #discount : number = 0;
   constructor(
     name: string,
     price: number,
@@ -31,8 +32,15 @@ export class Product {
   getCategory(): Category {
     return this.#category;
   }
+  
+  getDiscount(): number {
+    return this.#discount;
+  }
 
   toString(): string {
+    if (this.#discount > 0){
+      return `${this.#name} (${this.#discount}% de descuento)`;
+    }
     return `${this.#name}`;
   }
 
@@ -56,4 +64,13 @@ export class Product {
     }
     this.#category = category;
   }
+
+  setDiscount(discount: number): void {
+    if (!Number.isInteger(discount) || discount < 0 || discount > 100){
+      throw new Error("El descuento debe ser un entero entre 0 y 100");
+    }
+    this.#discount = discount;
+  } 
+  
 }
+

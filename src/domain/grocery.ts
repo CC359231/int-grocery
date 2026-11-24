@@ -37,6 +37,12 @@ export class Grocery {
 
   totalDiscountedProducts(): number {
     // TODO: Implementar cuando Product tenga descuento
-    return 0;
+    let total = 0;
+    for (const product of this.#products){
+      if (product.getDiscount()>0){
+        total++;
+      }
+    }
+    return total;
   }
 }
